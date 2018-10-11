@@ -13,5 +13,5 @@ var channel = "499933149573283862";
     client.guilds.get(server).channels.get(channel).send('#daily')
     },86400);
 })
-client.login("NDk5NjYzNzg3MzQ4MTk3Mzc2.DqBzeA.rC18uoeCGiY3xNTeJtTNBzh2bLc");
+client.login(process.env.BOT_TOKEN); 
 
